@@ -1,9 +1,11 @@
 .container{
     display: grid;
     background-color: #aaa;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .content { 
+
     &:nth-child(odd){
         background-color: #ccc;
     }
