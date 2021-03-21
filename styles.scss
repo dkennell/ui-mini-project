@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    background-color: #aaa;
+}
+
+.content { 
+    &:nth-child(odd){
+        background-color: #ccc;
+    }
+}
