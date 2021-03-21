@@ -1,9 +1,13 @@
 .container {
   display: -ms-grid;
   display: grid;
-  background-color: #aaa;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.content {
+  background-color: #aaa;
 }
 
 .content:nth-child(odd) {
